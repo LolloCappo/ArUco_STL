@@ -3,11 +3,12 @@ from stl_utils import marker_to_stl
 import cv2
 
 ##############################################
-ID = 0
+ID = 7
+filename = 'marker_7.stl'
 dictionary = cv2.aruco.DICT_ARUCO_ORIGINAL
-thickness = 10
+thickness = 1
 size = 20
-filename = 'marker_0.stl'
+
 ##############################################
 
 # Create an ArUco marker
