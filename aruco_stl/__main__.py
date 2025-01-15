@@ -4,9 +4,9 @@ import cv2
 
 ##############################################
 ID = 7
-filename = 'marker_7.stl'
+filename = f"marker_{ID}.stl"
 dictionary = cv2.aruco.DICT_ARUCO_ORIGINAL
-thickness = 1
+thickness = 1.0
 size = 20
 
 ##############################################
